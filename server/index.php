@@ -45,26 +45,6 @@ elseif(isset($_GET['category']))
 	
 }
 
-
-elseif(isset($_GET['tag']))
-{
-		$sql = "SELECT * FROM `post` join posttags on posttags.post_id = post.post_id JOIN tags on tags.tag_id = posttags.tag_id WHERE word like '%".$_GET['tag']."%'";
-		$sql .= " group by post.post_id";
-		if(isset($_GET['order']))
-			$sql .= " order by ".$_GET['order'];
-		if(isset($_GET['ordertype']))
-			$sql.= " ".$_GET['ordertype'];
-		if(isset($_GET['limit'])){
-			$arr = explode(',', $_GET["limit"]);
-			$sql .= " limit ".$arr[0].",".$arr[1];
-		}
-
-		$info = select_list($dbo,$sql);
-		$result = array("status" => "success","result" => $info);
-	echo json_encode($result);
-}
-
-
 elseif(isset($_GET['post']))
 {
 		$sql = "select * from post join category on category.cat_id = post.cat_id where post_id = ".$_GET['post'];
@@ -73,29 +53,9 @@ elseif(isset($_GET['post']))
 	echo json_encode($result);
 }
 
-elseif(isset($_GET['update']))
+elseif(isset($_GET['delete']))
 {
-    $sql = "select * from post where post_id=".$_GET['update'];
-    $info = select_info($dbo,$sql);
-    $result = array("status" => "success","result" => $info);
-    echo json_encode($result);
 
-}
-
-elseif(isset($_GET['feature']))
-{
-		$sql = "select * from post where feature = '0'";
-		if(isset($_GET['order']))
-			$sql .= " order by ".$_GET['order'];
-		if(isset($_GET['ordertype']))
-			$sql.= " ".$_GET['ordertype'];
-		if(isset($_GET['limit'])){
-			$arr = explode(',', $_GET["limit"]);
-			$sql .= " limit ".$arr[0].",".$arr[1];
-		}
-		$info = select_list($dbo,$sql);
-		$result = array("status" => "success","result" => $info);
-	echo json_encode($result);
 }
 
 

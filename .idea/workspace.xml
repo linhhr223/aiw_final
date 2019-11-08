@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2621e9c8-a314-4d98-ba70-050ac344da8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/client/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/updatepost.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/client/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +27,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../finalaiw" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -67,7 +67,11 @@
       <workItem from="1573210647698" duration="1782000" />
       <workItem from="1573212460546" duration="1786000" />
       <workItem from="1573214265439" duration="1789000" />
-      <workItem from="1573216073277" duration="574000" />
+      <workItem from="1573216073277" duration="1791000" />
+      <workItem from="1573217881773" duration="1325000" />
+      <workItem from="1573219704634" duration="1796000" />
+      <workItem from="1573221518864" duration="1791000" />
+      <workItem from="1573223332403" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="update config">
       <created>1573210697292</created>
@@ -83,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573215127796</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1573216846845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573216846845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update config" />
-    <option name="LAST_COMMIT_MESSAGE" value="update config" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
