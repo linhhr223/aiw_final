@@ -75,7 +75,11 @@ elseif(isset($_GET['post']))
 
 elseif(isset($_GET['update']))
 {
-    $sql = "";
+    $sql = "select * from post where post_id=".$_GET['update'];
+    $info = select_info($dbo,$sql);
+    $result = array("status" => "success","result" => $info);
+    echo json_encode($result);
+
 }
 
 elseif(isset($_GET['feature']))

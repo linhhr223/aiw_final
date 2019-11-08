@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2621e9c8-a314-4d98-ba70-050ac344da8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/updatepost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/client/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/client/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/updatepost.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/writepost.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/writepost.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +30,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,7 +66,8 @@
       <workItem from="1573130019671" duration="297000" />
       <workItem from="1573210647698" duration="1782000" />
       <workItem from="1573212460546" duration="1786000" />
-      <workItem from="1573214265439" duration="805000" />
+      <workItem from="1573214265439" duration="1789000" />
+      <workItem from="1573216073277" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="update config">
       <created>1573210697292</created>
@@ -72,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573210697292</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update config">
+      <created>1573215127796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573215127796</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

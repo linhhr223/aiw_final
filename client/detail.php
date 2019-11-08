@@ -47,7 +47,8 @@ require_once "config.php";
                         <div class="nav-outer">
                             <ul class="nav navbar-nav">
                                 <li class="active dropdown yamm-fw"> <a href="index.php">Home</a> </li>
-                              
+                                <li class="active dropdown yamm-fw"> <a href="/server/writepost.php">Create Post</a> </li>
+
 
                                 <!--<li class="dropdown  navbar-right special-menu"> <a href="#">Todays offer</a> </li> -->
                             </ul>
@@ -93,7 +94,7 @@ require_once "config.php";
 						<span class="author"><?= $new['author'] ?></span>
 						<span class="review"><?= $totalcmt ?> Comments</span>
 						<span class="date-time"><?= $new['created'] ?></span>
-                        <span><a href="/client/updatepost.php?update=<?= $new['post_id'] ?>" style="color: #aaa;">Update</a></span>
+                        <span><a href="/client/update.php?update=<?= $new['post_id'] ?>" style="color: #aaa;">Update</a></span>
                         <p><?= $new['content'] ?></p>
 						<p><h4>Bài viết liên quan</h4></p>
 						<ul>
