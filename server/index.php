@@ -73,6 +73,10 @@ elseif(isset($_GET['post']))
 	echo json_encode($result);
 }
 
+elseif(isset($_GET['update']))
+{
+    $sql = "";
+}
 
 elseif(isset($_GET['feature']))
 {

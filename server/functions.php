@@ -119,13 +119,13 @@ function insertdb($db,$dbname,$data){
 } //end insert function;
 
 
-function updatedb($db,$tbname,$data){
+function updatedb($db,$tbname,$data,$id){
 	$sql = 'UPDATE '.$tbname.' SET ';
 	foreach($data['data'] as $key => $val){
 		$sql .= $key.' = "'.$val.'",';
 	}
 	rtrim($sql,",");
-	$sql .= ' WHERE 0 = 0';
+	$sql .= ' WHERE id = '.$id;
 	foreach($data['where'] as $key => $val){
 		$sql .= 'AND '.$key.' = '.$val;
 	}

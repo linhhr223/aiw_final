@@ -5,6 +5,7 @@ require_once "config.php";
         {
             $page = $_GET['page'];
         }
+
         if(isset($_GET['category']))
         {
             $allnews = file_get_contents(server."/index.php?category=".$_GET['category']);
@@ -14,16 +15,6 @@ require_once "config.php";
             $total = count($listtotal['result']);
             $totalpage = $total/postperpage;
         }
-        elseif(isset($_GET['tag']))
-        {
-            $allnews = file_get_contents(server."/index.php?tag=".$_GET['tag']);
-            $listtotal = json_decode($allnews, true);
-            $getlistnews = file_get_contents(server."/index.php?tag=".$_GET['tag']."&order=created&ordertype=desc&limit=".$page*postperpage.",".postperpage);
-            $listnews = json_decode($getlistnews, true);
-            $total = count($listtotal['result']);
-            $totalpage = $total/postperpage;
-        }
-
         else {
             $allnews = file_get_contents(server."/index.php?getlist=post&order=created&ordertype=desc");
             $listtotal = json_decode($allnews, true);
@@ -71,8 +62,9 @@ require_once "config.php";
                     <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
                         <div class="nav-outer">
                             <ul class="nav navbar-nav">
-                                <li class="active dropdown yamm-fw"> <a href="index.php" >Home</a> </li>
-                              
+                                <li class="active dropdown yamm-fw"> <a href="/client/index.php" >Home</a> </li>
+                                <li class="active dropdown yamm-fw"> <a href="/server/writepost.php" >Create Post</a> </li>
+                                <li class="active dropdown yamm-fw"> <a href="index.php" >Update & Delete Post</a> </li>
 
                                 <!--<li class="dropdown  navbar-right special-menu"> <a href="#">Todays offer</a> </li> -->
                             </ul>

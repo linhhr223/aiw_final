@@ -158,6 +158,8 @@ if($_POST){
 				</div>
 			</div>
 
+            <a href="/client/index.php" style="margin-left: 70px;">Home Page</a>
+
 			
 
 		</div>

@@ -2,13 +2,14 @@
 require_once "config.php";
 ?>
 <?php if(isset($_GET['id'])):
- $newdetail = file_get_contents(server."/index.php?post=".$_GET['id']);
-$detail = json_decode($newdetail, true);
-$new = $detail['result'];
- $commentlist = file_get_contents(server."/index.php?cmt&postid=".$_GET['id']."&cmtdate=desc");
-$comments = json_decode($commentlist, true);
-$cmts = $comments['result'];
-$totalcmt = count($cmts);	
+     $newdetail = file_get_contents(server."/index.php?post=".$_GET['id']);
+    $detail = json_decode($newdetail, true);
+    $new = $detail['result'];
+
+     $commentlist = file_get_contents(server."/index.php?cmt&postid=".$_GET['id']."&cmtdate=desc");
+    $comments = json_decode($commentlist, true);
+    $cmts = $comments['result'];
+    $totalcmt = count($cmts);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +23,10 @@ $totalcmt = count($cmts);
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="stylesheet" href="assets/css/blue.css">
 <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+
 
 </head>
 <body>
@@ -90,7 +93,8 @@ $totalcmt = count($cmts);
 						<span class="author"><?= $new['author'] ?></span>
 						<span class="review"><?= $totalcmt ?> Comments</span>
 						<span class="date-time"><?= $new['created'] ?></span>
-						<p><?= $new['content'] ?></p>
+                        <span><a href="/client/updatepost.php?update=<?= $new['post_id'] ?>" style="color: #aaa;">Update</a></span>
+                        <p><?= $new['content'] ?></p>
 						<p><h4>Bài viết liên quan</h4></p>
 						<ul>
 						<?php 
