@@ -124,7 +124,7 @@ $post = $stmt->fetch();
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-6 col-md-offset-3" style="padding-top: 10px">
-                                    <button name="submit" type="submit" class="btn checkout-btn btn-primary" style="color: white">Đăng bài</button>
+                                    <button name="submit" type="submit" class="btn checkout-btn btn-primary" style="color: white">Cập nhật</button>
                                 </div>
                             </div>
 
