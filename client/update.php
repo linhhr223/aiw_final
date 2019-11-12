@@ -154,9 +154,10 @@ $post = $stmt->fetch();
         $shortintro = $_POST['shortintro'];
         $content    = $_POST['content'];
 
-        $sql = "update post set title='".$title."', author='".$author."', cat_id = '".$catid."', short_intro='".$shortintro."', content='".$content."';";
+        $sql = "update post set title='".$title."', author='".$author."', cat_id = '".$catid."', short_intro='".$shortintro."', content='".$content."' where post_id ='".$_GET['update']."';";
         $data = $dbo->prepare($sql);
         $data->execute();
+
     }
 ?>
 
