@@ -94,8 +94,8 @@ require_once "config.php";
 						<span class="author"><?= $new['author'] ?></span>
 						<span class="review"><?= $totalcmt ?> Comments</span>
 						<span class="date-time"><?= $new['created'] ?></span>
-                        <span><a href="/client/update.php?update=<?= $new['post_id'] ?>" style="color: #aaa;">Update</a></span>
-                        <span><a href="/client/delete.php?delete=<?= $new['post_id'] ?>" style="color: #aaa;">Delete</a></span>
+                        <span><a href="/server/update.php?update=<?= $new['post_id'] ?>" style="color: #aaa;">Update</a></span>
+                        <span><a href="/server/delete.php?delete=<?= $new['post_id'] ?>" style="color: #aaa;">Delete</a></span>
                         <p><?= $new['content'] ?></p>
 						<p><h4>Bài viết liên quan</h4></p>
 						<ul>

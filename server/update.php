@@ -1,5 +1,5 @@
 <?php
-require_once "database.php";
+require_once "config.php";
 
 $sql = "select * from post where post_id =".$_GET["update"];
 $stmt = $dbo->prepare($sql);
@@ -10,11 +10,11 @@ $post = $stmt->fetch();
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="../server/public/css/bootstrap.min.css">
-<link rel="stylesheet" href="../server/public/css/main.css">
-<link rel="stylesheet" href="../server/public/css/blue.css">
-<script src="../server/public/js/jquery.min.js"></script>
-<script src="../server/public/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="public/css/bootstrap.min.css">
+<link rel="stylesheet" href="public/css/main.css">
+<link rel="stylesheet" href="public/css/blue.css">
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
 
 <div class="body-content outer-top-xs" id="content">
     <div class="container" id="contai">
