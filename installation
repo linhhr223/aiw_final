@@ -1,0 +1,28 @@
+Group 1-3C16
+    Nguyễn Ngọc Linh
+    Bùi Quang Thành
+    Đinh Thị Trà Mi
+    Bùi Ngọc Trung
+
+    ====================== Preparation: ======================
+
+	- MySQL server (workbench, phpmyadmin,...)
+	- Xampp, nginx,...
+	- PHP Storm, htdocs, sublime text, Visual studio code,....
+
+    ======================== Start: ==========================
+
+    1. Import database into MySql server
+    2. Start xampp or nginx (I'm using nginx)
+    3. Run
+
+    NOTES: Client run file restful.api/client/index.php
+        Server : - Get all data of posts
+            http://restapi.test/server/index.php?getlist=post&order=created&ordertype=desc
+             - Get all data of category with category by id
+            http://restapi.test/server/index.php?category=1
+             - Get all data of comment
+            http://restapi.test/server/index.php?cmt
+             - Get all data of comment when postid = id
+            http://restapi.test/server/index.php?cmt&postid=55
+		 
