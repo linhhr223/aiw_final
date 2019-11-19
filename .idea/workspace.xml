@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2621e9c8-a314-4d98-ba70-050ac344da8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/installation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Video.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Video.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installation" beforeDir="false" afterPath="$PROJECT_DIR$/installation" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,7 @@
       <workItem from="1574164266224" duration="602000" />
       <workItem from="1574168814056" duration="11000" />
       <workItem from="1574169550103" duration="35000" />
-      <workItem from="1574178070011" duration="632000" />
+      <workItem from="1574178070011" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="update config">
       <created>1573210697292</created>
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574178506213</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1574178707349</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574178707349</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

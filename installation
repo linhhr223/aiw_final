@@ -16,7 +16,7 @@ Group 1-3C16
     2. Start xampp or nginx (I'm using nginx)
     3. Run
 
-    NOTES: Client run file restful.api/client/index.php
+    NOTES:
         Server : - Get all data of posts
             http://restapi.test/server/index.php?getlist=post&order=created&ordertype=desc
              - Get all data of category with category by id
@@ -25,4 +25,5 @@ Group 1-3C16
             http://restapi.test/server/index.php?cmt
              - Get all data of comment when postid = id
             http://restapi.test/server/index.php?cmt&postid=55
-		 
+		 Client :
+		    restful.api/client/index.php
