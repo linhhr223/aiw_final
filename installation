@@ -1,8 +1,10 @@
-Group 1-3C16
-    Nguyễn Ngọc Linh
-    Bùi Quang Thành
-    Đinh Thị Trà Mi
-    Bùi Ngọc Trung
+	Group 1-3C16
+	    Nguyễn Ngọc Linh
+	    Bùi Quang Thành
+	    Đinh Thị Trà Mi
+	    Bùi Ngọc Trung
+
+	Topic: Cuisine
 
     ====================== Preparation: ======================
 
@@ -12,7 +14,7 @@ Group 1-3C16
 
     ======================== Start: ==========================
 
-    1. Import database into MySql server
+    1. Import database into MySql server 
     2. Start xampp or nginx (I'm using nginx)
     3. Run
 
@@ -25,5 +27,6 @@ Group 1-3C16
             http://restapi.test/server/index.php?cmt
              - Get all data of comment when postid = id
             http://restapi.test/server/index.php?cmt&postid=55
-		 Client :
-		    restful.api/client/index.php
+
+	Client :
+		http://restful.api/client/index.php
